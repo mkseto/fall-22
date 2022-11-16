@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-//package my.digitalcookbook;
+//package my.virtualcookbook;
 
 /**
  * hu
  * @author Mitchell
  */
-public class DigitalCookbookUI extends javax.swing.JFrame {
+public class VirtualCookbookUI extends javax.swing.JFrame {
 
     /**
-     * Creates new form DigitalCookbookUI
+     * Creates new form virtualCookbookUI
      */
-    public DigitalCookbookUI() {
+    public VirtualCookbookUI() {
         initComponents();
     }
 
@@ -44,7 +44,7 @@ public class DigitalCookbookUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Digital Cookbook"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Virtual Cookbook"));
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -201,20 +201,20 @@ public class DigitalCookbookUI extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(DigitalCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VirtualCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(DigitalCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VirtualCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(DigitalCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VirtualCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(DigitalCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VirtualCookbookUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new DigitalCookbookUI().setVisible(true);
+                new VirtualCookbookUI().setVisible(true);
             }
         });
     }
