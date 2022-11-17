@@ -11,9 +11,14 @@ public class RecipeBook {
     private Recipe[] book;
     int numrecipes = 0;
     
-    public void addRecipe(Recipe recipe){
-        book[numrecipes] = recipe;
-        numrecipes++;
+    public void loadRecipes(String filename){
+        //open file reader
+
+        //read json data and assign fields: name, ingredients, tags, etc.
+        
+        //Recipe r = new Recipe(name, ingredients, tags)
+
+        //add r to book 
     }
     
     public Recipe[] searchByName(String name){
