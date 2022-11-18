@@ -5,7 +5,9 @@
 
 /**
  * Data class representing a recipe in a cookbook
- * @author onolanshafer
+ * @author Olivia Nolan Shafer
+ *          Mitch Seto
+ *          Hiromi G.
  */
 public record Recipe(String name, String[] ingredients, int preptime, String[] steps) {
     public String getName() {
