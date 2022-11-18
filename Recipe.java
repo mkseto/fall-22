@@ -10,22 +10,37 @@
 public record Recipe(String name, String[] ingredients, int preptime, String[] steps) {
     public String getName() {
         /* 
-         Returns name of a recipe
-         Params: none
-         Returns 
-         */
+        Returns name of a recipe
+        Params: none
+        Returns: String name
+        */
         return name;
     }
 
     public String[] getIngredients() {
+         /* 
+         Returns ingredients of a recipe
+         Params: none
+         Returns: String[] ingredients
+         */
         return ingredients;
     }
 
     public int getPreptime() {
+        /* 
+        Returns prep time of a recipe
+        Params: none
+        Returns: int preptime
+        */
         return preptime;
     }
 
     public String[] getSteps() {
+        /* 
+        Returns name of a recipe
+        Params: none
+        Returns: String name
+        */
         return steps;
     }
     
@@ -44,6 +59,9 @@ public record Recipe(String name, String[] ingredients, int preptime, String[] s
     } 
 
     public String toString(){
+        /*
+        String representation of a Recipe
+        */
         return "Name: " + name.toString() + "\nIngredients: " + ingredients.toString() + 
         "\nPreptime: " + preptime.toString() +  "\nSteps: " + steps.toString();
 ;
