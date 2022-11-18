@@ -25,7 +25,9 @@ public record Recipe(String name, String[] ingredients, int preptime, String[] s
     }
     
     public String toString(){
-        return "";
+        return "Name: " + name.toString() + "\nIngredients: " + ingredients.toString() + 
+        "\nPreptime: " + preptime.toString() +  "\nSteps: " + steps.toString();
+;
     }
     
 }
