@@ -63,8 +63,8 @@ public record Recipe(String name, String[] ingredients, int preptime, String[] s
         String representation of a Recipe
         */
         return "Name: " + name.toString() + "\nIngredients: " + ingredients.toString() + 
-        "\nPreptime: " + preptime.toString() +  "\nSteps: " + steps.toString();
-;
+        "\nPreptime: " + preptime +  "\nSteps: " + steps.toString();
+
     }
     
 }
