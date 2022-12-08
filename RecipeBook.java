@@ -5,7 +5,9 @@
 
 /**
  *
- * @author onolanshafer
+ * @author Olivia Nolan Shafer
+ *          Mitch Seto
+ *          Hiromi G.
  */
 public class RecipeBook {
     private Recipe[] book;
