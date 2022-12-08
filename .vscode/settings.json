@@ -1,7 +1,14 @@
 {
+<<<<<<< HEAD
+    "java.project.sourcePaths": [],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/Mitchell/Downloads/sample.json.simple/json-simple-1.1.jar"
+=======
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "/Users/onolanshafer/Desktop/json-simple-1.1.jar",
         "/Users/onolanshafer/Desktop/JSON/json-simple-1.1.jar"
+>>>>>>> 4be963295ba4f345f7499d4fd484a41d0146dd3a
     ]
 }

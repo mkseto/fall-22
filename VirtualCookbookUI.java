@@ -8,6 +8,9 @@
  * hu
  * @author Mitchell
  */
+
+
+
 public class VirtualCookbookUI extends javax.swing.JFrame {
 
     /**
