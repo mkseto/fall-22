@@ -5,7 +5,9 @@
 
 /**
  *
- * @author onolanshafer
+ * @author Olivia Nolan Shafer
+ *          Mitch Seto
+ *          Hiromi G.
  */
 public class RecipeBook {
     private Recipe[] book;
@@ -22,23 +24,51 @@ public class RecipeBook {
     }
     
     public Recipe[] searchByName(String name){
-        return book;
-    }
+        /*
+        Returns String array of all recipes whose names contain parameter name
+        Params:  String name
+        Returns: Recipe[] arr
+        */
+        
+        //Public static Recipe[] searchbyName(String dishName, Recipe [] array) {
+        //dishName = String.parseString(SEARCHBOXTEXTFIELD.getTest());
+        
+        for (int i = 0; i<book.length;i++) {
+        // If the current recipe object’s name matches dishName, display in left column
+            if((book[i].getName()).equals(name)) { 
+                //display (book[i].getName());
+            } 
+        }
+        
+        return null;
+        }
     
     public Recipe[] searchByIngredient(String[] ingredients){
-        return book;
-    }
-    
-    public Recipe[] sortByPreptime(int preptime){
-        return book;
-    }
-    
-    public String displayRecipe(){
-        return "";
-    }
+        /* 
+        TO BE IMPLEMENTED IF WE HAVE TIME
+        Return Recipe[] whose ingredients are present in String[] ingredients
+        Params: String[] ingredients
+        Returns: Recipe[]
+        */
 
-    public void printName(){
-        System.out.println(book[0]);
+        return book;
+    }
+    
+    public void sortByPreptime(Recipe[] book){
+        /* 
+        Sorts elements in book by preptime (using bubble sort algorithm)
+        Params: Recipe[] book
+        Returns: none
+        */  
+    }
+    
+    public String displayRecipe(int i){
+        /*
+        Calls toString() for recipe at index
+        Params: int i
+        Returns: String
+        */
+        return "";
     }
     
 }
